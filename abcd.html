@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+h1
+{
+font-size:30px;
+padding-left:650px;
+padding-bottom:15px;
+padding-top:20px;
+color:white;
+
+}
+.hd
+{
+padding-left:150px;
+font-size:20px;
+padding-top:120px;
+}
+.fn
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:15px;
+}
+.ln
+{color:#b70000;
+
+padding-left:400px;
+padding-bottom:15px;
+}
+.em
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:15px;
+}
+.rl
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:15px;
+}
+
+.std
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:15px;
+}
+.pwd
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:15px;
+}
+.cp
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:15px;
+}
+.gn
+{
+color:#b70000;
+padding-left:400px;
+padding-bottom:45px;
+}
+body
+{
+background:url("q.jpg");
+background-size:1400px;
+background-repeat: no-repeat;
+}
+</style>
+<title>Register</title> </head>
+<body  >
+<div class="hd">
+<h1> Register </h1>
+<form method="post" action="stdregister.php">
+<div class="fn">
+<label style="padding-right:96px;" for="fname"><b>First Name:</b></label>
+<input type="text" id="fname" name="firstname" placeholder="Enter First Name" required/>
+</div>
+<div class="ln">
+<label style="padding-right:106px;" for="fname"><b>last Name:</b></label>
+<input type="text" id="lname" name="lastname" placeholder="Enter last Name" />
+</div>
+<div class="em">
+<label style="padding-right:147px;" for="email"><b>Email:</b></label>
+ <input type="email" id="email" name="email_id" placeholder="Enter email" required />
+</div>
+
+
+<div class="std">
+<label style="padding-right:99px;" for="std_id"><b>Student_id:</b></label>
+<input type="text" id="std_id" name="std_id" placeholder="Enter student ID" required/>
+</div>
+<div class="pwd">
+<label style="padding-right:112px;" for="password"><b>Password:</b></label>
+<input type="password" id="password" name="password" placeholder="Enter password" required />
+</div>
+<div class="cp">
+<label style="padding-right:31px;" for="cpassword"><b>Confirm Password:</b></label>
+<input type="password" id="cpassword" name="cpassword" placeholder="Re-Enter password" required />
+</div>
+<div class="gn">
+<label style="padding-right:132px;"  for="sex"><b>Gender:</b></label>
+<label><input type="radio" id="sex" name="sex" value="male" required/><b>Male</b></label>
+<label><input type="radio" id="sex" name="sex" value="female"><b>Female</b></label>
+ <label><input type="radio" id="sex" name="sex" value="other" required/><b>Others</b></label>
+</div>
+<div style="padding-left:614px;">
+<input  type="submit" value="submit"></input>
+
+
+</div>
+</form>
+ <p style="padding-left:400px;"><b>Already a member? Login</b> <a href="login1.html"><b>Here</b></a></p>
+</div>
+
+</body>
+</html>
+
+

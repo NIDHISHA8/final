@@ -1,0 +1,98 @@
+<html>
+
+<head>
+
+<style>
+
+.logo
+
+{
+
+background-color:tomato;
+
+opacity:0.8;
+padding:30px 40px 2px 50px;
+
+height:62px;
+
+display:inline-block;
+
+width:100%;
+
+}
+
+.sub
+{
+background-color:tomato;
+
+opacity:0.8;
+padding:50px 60px 20px 50px;
+
+position:absolute;
+left:550px;
+top:200px;
+border-bottom-left-radius:1em;
+border-bottom-right-radius:1em;
+border-top-left-radius:1em;
+border-top-right-radius:1em;
+height:62px;
+
+display:inline-block;
+
+width:100px;
+
+}
+.sub a
+{
+font-size:30px;
+color:white;
+text-decoration:none;
+border:none;
+}
+.logo a
+
+{
+font-size:20px;
+color:white;
+text-decoration:none;
+border:none;
+}
+
+</style>
+</head>
+<body>
+
+<div class="logo">
+<a>Sodexo</a>
+<a href="log.html" style="padding-left:900px;padding-right:20px;">Log out</a>
+</div>
+</br>
+</br>
+</br>
+<form action="admin.php" method="post">
+<table border=1px align=center>
+<tr>
+<th> item_id </th>
+<td> <input type=text name="item_id"/> </td>
+</tr>
+<tr>
+<th>item_name </th>
+<td> <input type=text name="item_name"/> </td>
+</tr>
+<tr>
+<th>price </th>
+<td> <input type=number name="price"/> </td>
+</tr>
+<tr>
+<th>image upload </th>
+<td> <input id="file" type="file" name="file"/> </td>
+</tr>
+<tr>
+<td>
+</td>
+<td> <input type=submit name=submit /> </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
